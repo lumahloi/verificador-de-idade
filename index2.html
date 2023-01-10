@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <form>
+                <p>Ano de Nascimento: <input type="number" name="nascimento" id="nascimento" min="0"></p>
+                <p>Sexo:
+                    <input type="radio" name="genero" id="masc" >
+                    <label for="masc">Masculino</label>
+
+                    <input type="radio" name="genero" id="femi" checked>
+                    <label for="femi">Feminino</label>
+                </p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </form>
+        </div>
+
+        <div id="result">
+            <p>A verificação irá acontecer aqui...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Site criado por <a href="https://github.com/lumahloi" target="_blank"><strong>Lumah Loise</strong></a></p>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>

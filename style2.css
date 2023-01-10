@@ -1,0 +1,45 @@
+body {
+    background-color: lightpink;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    max-width: 500px;
+    height: 450px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.349);
+}
+
+footer > p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 70%;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: crimson;
+}
+
+
